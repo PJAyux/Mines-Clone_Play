@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PLay Mines</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./mines.css'>
+    <div class="mines">Mines Dummy Play</div>
+</head>
+<body>
+    <div class="lostwin"><div class="inlostwin" value="xxx" id="lostwin1">You Won $41</div></div>
+    <div class="outerbox">
+        <div class="left"><div class="minesleft"><label class="lefttxt">Mines Left :</label>
+            <label class="leftval" id="flashleft">
+            </label></div>
+            <div class="chanceleft"><label class="chancetxt">Chances Left :</label>
+                <label class="chanceval" id="flashchance">
+                </label></div></div>
+    <div class="box">
+        <div class="inner">
+        <button class="unit" value="0" type="button" onclick="change(id)" id="1"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="2"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="3"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="4"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="5"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="6"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="7"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="8"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="9"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="10"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="11"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="12"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="13"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="14"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="15"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="16"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="17"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="18"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="19"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="20"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="21"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="22"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="23"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="24"></button>
+        <button class="unit" value="0" type="button" onclick="change(id)" id="25"></button>
+    </div>
+    </div>
+    </div>
+    <div class="form">
+        <div class="betamount"><div class="txt">Bet Amount</div>
+            <div class="mny" id="flashmoney">$0.00</div></div>
+        <div class="barline">
+        <input type="text" class="barinput" id="amount" placeholder="0.0000000" >
+        <button class="half">1/2</button>
+        <button class="twox">2x</button>
+        </div>
+        <button class="betbutton" onclick="setup()">Bet</button>
+        <div class="minenum"><div class="minetxt">Mines</div>
+        </div><input type="text" class="barinput2" id="minesnum" placeholder="3" >
+        <div class="manualauto">
+            <ul>
+           <li> <input type="radio" class="manual" name="select" id="one" checked ></input>
+            <label for="one">Manual</label></li>
+        <li><input type="radio" class="auto" name="select" id="two"></input>
+            <label for="two">Auto</label></li>
+            </ul>
+    </div>
+    </div>
+
+    <div class="details">
+        <h3>Description</h3>
+        <p>
+            Enjoy the best fast-paced online keno game at Stake Casino, that's easy to play and fun to win!<br></p>
+<p>Keno is a game of chance, similar to the lottery and bingo, and extremely popular amongst modern casinos. In traditional keno, 
+you to choose 10-20 numbers ranging from 1-80. After making your selection and placing your bets, 20 numbers are randomly drawn, and if you’ve picked correctly,
+ you will receive your winnings based on the associated pay table.
+        </p>
+        <label><h3>Mines Gameplay</h3></label>
+        <p>Players set their bet amount to play with during a round of Mines as well as the number
+             of mines that exists in the field of play, ranging between 1-24. There are 25 tiles where gems and mines 
+             can be distributed.</p><p>
+            The gameplay resembles the beloved Minesweeper game, with the placement of mines and gems being random and 
+            betting mechanics included for any fiat, Bitcoin and other cryptocurrencies.</p>
+    </div>
+    
+
+
+
+    <script src="./mines.js">
+    </script>
+</body>
+</html>
